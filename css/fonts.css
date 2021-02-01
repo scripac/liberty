@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Roboto Condensed Light';
+    src: url('../fonts/RobotoCondensed-Light.eot');
+    src: local('../fonts/Roboto Condensed Light'), local('RobotoCondensed-Light'),
+    url('../fonts/RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoCondensed-Light.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/RobotoCondensed-Regular.eot');
+    src: local('../fonts/Roboto Condensed'), local('RobotoCondensed-Regular'),
+    url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Condensed Bold';
+    src: url('../fonts/RobotoCondensed-Bold.eot');
+    src: local('../fonts/Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
+    url('../fonts/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kelson Sans Light';
+    src: url('../fonts/KelsonSans-LightRU.eot');
+    src: url('../fonts/KelsonSans-LightRU.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KelsonSans-LightRU.woff') format('woff'),
+    url('../fonts/KelsonSans-LightRU.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kelson Sans';
+    src: url('../fonts/KelsonSans-RegularRU.eot');
+    src: url('../fonts/KelsonSans-RegularRU.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KelsonSans-RegularRU.woff') format('woff'),
+    url('../fonts/KelsonSans-RegularRU.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kelson Sans Bold';
+    src: url('../fonts/KelsonSans-BoldRU.eot');
+    src: url('../fonts/KelsonSans-BoldRU.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KelsonSans-BoldRU.woff') format('woff'),
+    url('../fonts/KelsonSans-BoldRU.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 0;
+}
+button, textarea{
+    outline: none;
+}
+
+.btn-orange{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    background-color: #FF8901;
+    border: 0;
+    padding: 14px 32px;
+    transition: .2s ease;
+}
+.btn-orange:hover{
+    color: #fff;
+    background-color: #ffa201;
+}
+.btn-green{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    background-color: #72A92C;
+    padding: 14px 32px;
+    transition: .2s ease;
+}
+.btn-green:hover{
+    color: #fff;
+    background-color: #7ab42e;
+}
+
+.more-link{
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #72A92C;
+    transition: .2s ease;
+}
+.more-link:hover{
+    color: #FF8901;
+}
+
+.btn-more-link{
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    background-color: #95C12B;
+    padding: 6px 23px   ;
+    transition: .2s ease;
+}
+.btn-more-link:hover{
+    color: #fff;
+    background-color: #7ab42e;
+}
