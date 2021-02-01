@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+
+<div id="wrapper">
+
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row header-top__wrap">
+                    <div class="header-top__left">
+                        <ul class="contact-list">
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:3852602901">(3852) 602-901</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:3852430219">(3852) 430-219</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:3852585501">(3852) 585-501</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-top__right">
+                        <a href="#" class="btn-orange" data-toggle="modal" data-target="#modal-order-course">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path d="M2.16667 17.3333H13.8333C14.7525 17.3333 15.5 16.5858 15.5 15.6667V4.00001C15.5 3.08084 14.7525 2.33334 13.8333 2.33334H12.1667V0.666672H10.5V2.33334H5.5V0.666672H3.83333V2.33334H2.16667C1.2475 2.33334 0.5 3.08084 0.5 4.00001V15.6667C0.5 16.5858 1.2475 17.3333 2.16667 17.3333ZM7.16667 14.345L4.0775 11.2558L5.25583 10.0775L7.16667 11.9883L10.7442 8.41084L11.9225 9.58917L7.16667 14.345ZM2.16667 4.83334H13.8333V6.5H2.16667V4.83334Z"
+                                          fill="white"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="20" height="20" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            Записаться на курсы иностранных языков
+                        </a>
+                        <a href="#" class="btn-green">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.3927 14.4615V1.60715L15.9023 1.64827C13.9352 1.81087 12.0059 2.28108 10.1847 3.04196L9.32129 3.40043V16.2039L9.95002 15.9426C11.8346 15.1585 13.8301 14.6733 15.8643 14.5045L16.3927 14.4615Z"
+                                      fill="white"/>
+                                <path d="M17.9999 3.50746H17.0356V14.7575C17.0363 14.9251 16.9077 15.0651 16.7406 15.0789L15.9174 15.1464C15.6798 15.166 15.4428 15.1903 15.2067 15.2194C15.1301 15.2286 15.054 15.2409 14.9779 15.2515C14.8188 15.2727 14.6599 15.2942 14.5016 15.3193C14.4093 15.3341 14.3176 15.3514 14.2257 15.3675C14.0839 15.3923 13.9419 15.417 13.8005 15.4449C13.704 15.4642 13.6076 15.4859 13.5092 15.5067C13.3745 15.5353 13.2399 15.5645 13.1061 15.5963C13.0059 15.6202 12.9059 15.6455 12.8062 15.6709C12.6761 15.7031 12.5466 15.7378 12.4173 15.7739C12.3167 15.8015 12.2161 15.8307 12.1158 15.8602C11.9873 15.8982 11.8606 15.9368 11.7336 15.9773C11.6343 16.0094 11.5348 16.0416 11.4358 16.0736C11.3086 16.1165 11.1821 16.1607 11.0561 16.2064C10.9597 16.2414 10.8632 16.2766 10.7646 16.3134C10.7205 16.3302 10.6768 16.3481 10.6328 16.3652H17.9999V3.50746Z"
+                                      fill="white"/>
+                                <path d="M2.09739 1.64827L1.60693 1.60715V14.4624L2.17744 14.5109C4.21038 14.6809 6.20409 15.169 8.08557 15.9573L8.67836 16.2039V3.40043L7.81594 3.04228C5.99456 2.28124 4.06489 1.81087 2.09739 1.64827Z"
+                                      fill="white"/>
+                                <path d="M0 3.50746V16.3646H7.3723C7.33275 16.3491 7.2932 16.3324 7.25333 16.3177C7.16136 16.2827 7.0686 16.2492 6.97601 16.2155C6.84542 16.1681 6.715 16.122 6.58348 16.0779C6.48837 16.0457 6.39294 16.0145 6.29736 15.984C6.16694 15.9412 6.03605 15.9008 5.90499 15.8632C5.80847 15.8349 5.71211 15.8065 5.61574 15.7795C5.48359 15.7429 5.35113 15.7083 5.21835 15.6742C5.12198 15.6494 5.02546 15.6246 4.9269 15.6015C4.79224 15.5694 4.65679 15.5398 4.5215 15.5108C4.42514 15.4899 4.32861 15.4687 4.23225 15.4494C4.09209 15.4218 3.95131 15.397 3.81053 15.3724C3.71824 15.3562 3.62596 15.3402 3.53352 15.3237C3.37814 15.2991 3.22229 15.2782 3.06644 15.2572C2.98765 15.2467 2.90949 15.2341 2.83086 15.2252C2.59513 15.1966 2.35939 15.1723 2.12366 15.1522L1.25841 15.0789C1.09157 15.0646 0.963658 14.9248 0.964286 14.7575V3.50746H0Z"
+                                      fill="white"/>
+                            </svg>
+                            Электронный дневник
+                        </a>
+                        <ul class="social-list">
+                            <li>
+                                <a href="#">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.2188 0H1.78125C0.801562 0 0 0.801562 0 1.78125V17.2188C0 18.1984 0.801562 19 1.78125 19H17.2188C18.1984 19 19 18.1984 19 17.2188V1.78125C19 0.801562 18.1984 0 17.2188 0ZM15.3888 13.3L13.6515 13.3261C13.6515 13.3261 13.2762 13.4009 12.787 13.0625C12.1374 12.6172 11.5247 11.4558 11.0461 11.6078C10.564 11.7598 10.5782 12.8024 10.5782 12.8024C10.5782 12.8024 10.5818 13.0257 10.4702 13.1432C10.3514 13.2727 10.1139 13.2988 10.1139 13.2988H9.3385C9.3385 13.2988 7.62375 13.4033 6.11325 11.8287C4.465 10.1139 3.0115 6.71175 3.0115 6.71175C3.0115 6.71175 2.926 6.4885 3.01863 6.38163C3.12194 6.25931 3.401 6.25219 3.401 6.25219L5.26062 6.2415C5.26062 6.2415 5.43519 6.27119 5.56106 6.36381C5.66556 6.43863 5.72019 6.58231 5.72019 6.58231C5.72019 6.58231 6.02063 7.3435 6.41844 8.02987C7.19388 9.36938 7.55725 9.66269 7.82088 9.52137C8.20325 9.31356 8.08806 7.62494 8.08806 7.62494C8.08806 7.62494 8.09519 7.01219 7.89569 6.74144C7.74013 6.53006 7.44681 6.46712 7.32094 6.45169C7.21644 6.43625 7.38744 6.19519 7.61069 6.08475C7.94438 5.92088 8.53456 5.91019 9.23281 5.91731C9.77431 5.92087 9.93462 5.95769 10.146 6.00638C10.7884 6.16194 10.5687 6.75925 10.5687 8.19256C10.5687 8.65331 10.4868 9.29813 10.8169 9.5095C10.9583 9.60213 11.3062 9.52375 12.179 8.04413C12.5911 7.34231 12.9022 6.51937 12.9022 6.51937C12.9022 6.51937 12.9687 6.37094 13.0732 6.308C13.1812 6.24506 13.3261 6.26406 13.3261 6.26406L15.2819 6.25337C15.2819 6.25337 15.8686 6.18331 15.9648 6.4505C16.0645 6.72837 15.7463 7.37794 14.9483 8.44312C13.6384 10.1911 13.49 10.0272 14.5813 11.0366C15.6204 12.0021 15.8353 12.4723 15.8733 12.5317C16.2961 13.2442 15.3912 13.3 15.3912 13.3H15.3888Z"
+                                              fill="white"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.2168 0H2.7832C1.24867 0 0 1.24867 0 2.7832V16.2168C0 17.7513 1.24867 19 2.7832 19H16.2168C17.7513 19 19 17.7513 19 16.2168V2.7832C19 1.24867 17.7513 0 16.2168 0ZM9.53711 14.4727C6.77464 14.4727 4.52734 12.2254 4.52734 9.46289C4.52734 6.70042 6.77464 4.45312 9.53711 4.45312C12.2996 4.45312 14.5469 6.70042 14.5469 9.46289C14.5469 12.2254 12.2996 14.4727 9.53711 14.4727ZM15.1035 5.56641C14.1827 5.56641 13.4336 4.81726 13.4336 3.89648C13.4336 2.97571 14.1827 2.22656 15.1035 2.22656C16.0243 2.22656 16.7734 2.97571 16.7734 3.89648C16.7734 4.81726 16.0243 5.56641 15.1035 5.56641Z"
+                                              fill="white"/>
+                                        <path d="M15.1035 3.33984C14.7963 3.33984 14.5469 3.58932 14.5469 3.89648C14.5469 4.20365 14.7963 4.45312 15.1035 4.45312C15.4107 4.45312 15.6602 4.20365 15.6602 3.89648C15.6602 3.58932 15.4107 3.33984 15.1035 3.33984Z"
+                                              fill="white"/>
+                                        <path d="M9.53711 5.56641C7.38882 5.56641 5.64062 7.31461 5.64062 9.46289C5.64062 11.6112 7.38882 13.3594 9.53711 13.3594C11.6854 13.3594 13.4336 11.6112 13.4336 9.46289C13.4336 7.31461 11.6854 5.56641 9.53711 5.56641Z"
+                                              fill="white"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row header-bottom__wrap">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="img/header/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <nav class="navbar">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Программы обучения</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Летние каникулы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Переводы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Фотогалерея</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Онлайн обучение</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="search-link zoomIn wow" data-wow-delay="1.4s">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.2 15.4C12.1764 15.4 15.4 12.1764 15.4 8.2C15.4 4.22355 12.1764 1 8.2 1C4.22355 1 1 4.22355 1 8.2C1 12.1764 4.22355 15.4 8.2 15.4Z"
+                                  stroke="#131D3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M19.0001 19L13.6001 13.6" stroke="#131D3B" stroke-width="2"
+                                  stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <div class="hamburger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="content-top">
+            <div class="container">
+                <div class="row content-top__wrap">
+                    <div class="col-md-12">
+                        <ul>
+                            <li>Главная</li>
+                            <li>О нас</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-1">
+            <div class="container">
+                <div class="row about-1-wrap pt-md-2 pb-md-5">
+                    <div class="col-lg-6 about-1-left">
+                        <h2>О «Liberty» language school</h2>
+                        <p>Языковой центр LIBERTY с момента своего образования нацелен на качественное всестороннее
+                            обучение актуальному иностранному языку. Преподаватели языкового центра применяют
+                            эффективную коммуникативную методику обучения иностранным языкам, позволяющую студентам
+                            достичь разговорного уровня в разумные сроки.</p>
+                        <p>Мы используем современные и регулярно
+                            обновляемые учебные пособия ведущих образовательных центров мира. Наши курсы по изучению
+                            английского языка основаны на методических программах учебников специализированных
+                            издательств Европы - Oxford, Cambridge, Longman, Macmillan и др. Занятия проводят
+                            высококвалифицированные преподаватели с опытом работы и проживания за рубежом.</p>
+                    </div>
+                    <div class="col-lg-6 about-1-right">
+                        <img src="img/about/malish.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="specialists bg-light">
+            <div class="container">
+                <div class="row specialists-wrap">
+                    <div class="col-md-12">
+                        <div class="title-wrap">
+                            <h3>Наш преподавательский состав</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="specialists-swiper">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-1.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Виктория</h5>
+                                                <span>Преподаватель английского языка</span>
+                                                <p>Барнаульский государственный педагогический университет
+                                                    Специальность: Лингвист, преподаватель английского и немецкого
+                                                    языков.</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-2.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Ольга</h5>
+                                                <span>Преподаватель английского языка</span>
+                                                <p>высшее, АлтГПА ЛИИН, степень бакалавра в направлении
+                                                    «Лингвистика»</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-3.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Анна</h5>
+                                                <span>Преподаватель английского языка</span>
+                                                <p>АлтГПА 2009-2014, лингвист, преподаватель английского и немецкого
+                                                    языков по специальности «Теория и методика преподавания иностранных
+                                                    языков и культур»</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-4.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Стелла</h5>
+                                                <span>Преподаватель английского языка. Администратор языкового центра на ул. Власихинской.</span>
+                                                <p>АлтГПУ ЛИИН, специальность: преподаватель английского и немецкого
+                                                    языка</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-1.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Виктория</h5>
+                                                <span>Преподаватель английского языка</span>
+                                                <p>Барнаульский государственный педагогический университет
+                                                    Специальность: Лингвист, преподаватель английского и немецкого
+                                                    языков.</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-2.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Ольга</h5>
+                                                <span>Преподаватель английского языка</span>
+                                                <p>высшее, АлтГПА ЛИИН, степень бакалавра в направлении
+                                                    «Лингвистика»</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-3.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Анна</h5>
+                                                <span>Преподаватель английского языка</span>
+                                                <p>АлтГПА 2009-2014, лингвист, преподаватель английского и немецкого
+                                                    языков по специальности «Теория и методика преподавания иностранных
+                                                    языков и культур»</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-4.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Стелла</h5>
+                                                <span>Преподаватель английского языка. Администратор языкового центра на ул. Власихинской.</span>
+                                                <p>АлтГПУ ЛИИН, специальность: преподаватель английского и немецкого
+                                                    языка</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-1.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Виктория</h5>
+                                                <span>Преподаватель английского языка</span>
+                                                <p>Барнаульский государственный педагогический университет
+                                                    Специальность: Лингвист, преподаватель английского и немецкого
+                                                    языков.</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-2.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Ольга</h5>
+                                                <span>Преподаватель английского языка</span>
+                                                <p>высшее, АлтГПА ЛИИН, степень бакалавра в направлении
+                                                    «Лингвистика»</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-3.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Анна</h5>
+                                                <span>Преподаватель английского языка</span>
+                                                <p>АлтГПА 2009-2014, лингвист, преподаватель английского и немецкого
+                                                    языков по специальности «Теория и методика преподавания иностранных
+                                                    языков и культур»</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                        <div class="specialist-card">
+                                            <div class="specialist-card__image">
+                                                <img src="img/specialists/specialists-4.jpg" alt="">
+                                            </div>
+                                            <div class="specialist-card__body">
+                                                <h5>Стелла</h5>
+                                                <span>Преподаватель английского языка. Администратор языкового центра на ул. Власихинской.</span>
+                                                <p>АлтГПУ ЛИИН, специальность: преподаватель английского и немецкого
+                                                    языка</p>
+                                                <a href="#" class="btn-more-link">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-button-next-top"></div>
+                            <div class="swiper-button-prev swiper-button-prev-top"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-1">
+            <div class="container">
+                <div class="row about-1-wrap pt-lg-5 pb-sm-4">
+                    <div class="col-lg-6 about-1-left">
+                        <h2>Наша методика</h2>
+                        <p>В языковом центре LIBERTY мы успешно применяем современную коммуникативную методику в
+                            сочетании с собственными оригинальными методическими разработками. Однако мы понимаем, что
+                            ни одна методика не может являться уникальной и отвечать всем нуждам и целям слушателей.
+                            Наши педагоги берут самое лучшее из различных методов обучения и всегда исходят из
+                            индивидуальных особенностей, пожеланий и потребностей слушателей. Подход к обучению
+                            направлен на развитие у слушателей всех навыков, необходимых для свободного владения
+                            иностранным языком. В первую очередь, обеспечивается максимально возможное погружение в
+                            общение на иностранном языке. На каждом уроке уделяется внимание развитию всех четырех
+                            ключевых навыков: чтению, письму, восприятию на слух и говорению. Каждое занятие
+                            предполагает участие слушателей в обсуждениях и дискуссиях, обеспечивается максимальное
+                            вовлечение каждого слушателя в ролевые игры и упражнения. Кроме того, на занятиях активно
+                            используются мультимедийные пособия.</p>
+                    </div>
+                    <div class="col-lg-6 about-1-right">
+                        <img src="img/about/children.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="licence bg-light">
+            <div class="container">
+                <div class="row licence-wrap">
+                    <div class="col-lg-2 col-sm-3 licence-left">
+                        <img src="img/about/licence.jpg" alt="">
+                    </div>
+                    <div class="col-lg-10 col-sm-9 licence-right">
+                        <h4>Для Вас важно наличие у нас лицензии на образовательную деятельность?</h4>
+                        <p>Мы являемся образовательным учреждением и имеем государственную лицензию на образовательную
+                            деятельность. Согласно этой лицензии мы имеем законное право выдать Вам сертификат,
+                            подтверждающий прохождение Вами курса обучения в центре. Вы можете получить налоговый вычет
+                            в размере до 13% стоимости обучения в нашем центре, если обратитесь в налоговую инспекцию.
+                            Присоединяйтесь к нам – выбирайте современное обучение на новом уровне качества!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback line-bottom">
+            <div class="container">
+                <div class="row feedback-wrap">
+                    <div class="col-md-12">
+                        <div class="title-wrap">
+                            <h3>Отзывы о нас</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="feedback-swiper">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="feedback-card">
+                                            <div class="feedback-card__header">
+                                                <img src="img/feedback/user-image.png" alt="">
+                                                <h5>Анастасия Громова, 16 лет</h5>
+                                            </div>
+                                            <div class="feedback-card__body">
+                                                <p>Мне очень нравится эта школа, хожу второй год. Преподаватели добрые,
+                                                    веселые, отлично изъясняют материал, а также увлекательная программа
+                                                    обучения. Всем советую.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="feedback-card">
+                                            <div class="feedback-card__header">
+                                                <img src="img/feedback/user-image.png" alt="">
+                                                <h5>Анастасия Громова, 16 лет</h5>
+                                            </div>
+                                            <div class="feedback-card__body">
+                                                <p>Мне очень нравится эта школа, хожу второй год. Преподаватели добрые,
+                                                    веселые, отлично изъясняют материал, а также увлекательная программа
+                                                    обучения. Всем советую.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="feedback-card">
+                                            <div class="feedback-card__header">
+                                                <img src="img/feedback/user-image.png" alt="">
+                                                <h5>Анастасия Громова, 16 лет</h5>
+                                            </div>
+                                            <div class="feedback-card__body">
+                                                <p>Мне очень нравится эта школа, хожу второй год. Преподаватели добрые,
+                                                    веселые, отлично изъясняют материал, а также увлекательная программа
+                                                    обучения. Всем советую.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="feedback-card">
+                                            <div class="feedback-card__header">
+                                                <img src="img/feedback/user-image.png" alt="">
+                                                <h5>Анастасия Громова, 16 лет</h5>
+                                            </div>
+                                            <div class="feedback-card__body">
+                                                <p>Мне очень нравится эта школа, хожу второй год. Преподаватели добрые,
+                                                    веселые, отлично изъясняют материал, а также увлекательная программа
+                                                    обучения. Всем советую.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="feedback-card">
+                                            <div class="feedback-card__header">
+                                                <img src="img/feedback/user-image.png" alt="">
+                                                <h5>Анастасия Громова, 16 лет</h5>
+                                            </div>
+                                            <div class="feedback-card__body">
+                                                <p>Мне очень нравится эта школа, хожу второй год. Преподаватели добрые,
+                                                    веселые, отлично изъясняют материал, а также увлекательная программа
+                                                    обучения. Всем советую.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="feedback-card">
+                                            <div class="feedback-card__header">
+                                                <img src="img/feedback/user-image.png" alt="">
+                                                <h5>Анастасия Громова, 16 лет</h5>
+                                            </div>
+                                            <div class="feedback-card__body">
+                                                <p>Мне очень нравится эта школа, хожу второй год. Преподаватели добрые,
+                                                    веселые, отлично изъясняют материал, а также увлекательная программа
+                                                    обучения. Всем советую.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-button-next-top"></div>
+                            <div class="swiper-button-prev swiper-button-prev-top"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <a href="#" class="btn-orange">Оставить отзыв</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row footer-wrap">
+                <div class="col-lg-3 footer-logo">
+                    <img src="img/header/logo.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum egestas arcu eget tristique
+                        pellentesque velit at.</p>
+                </div>
+                <div class="col-lg-4 footer-navbar">
+                    <ul class="footer-nav__list">
+                        <h5>О нашей школе</h5>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Языки
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Наши преподаватели
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Методика
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Фотогалерея
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Новости
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Отзывы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Языковой лагерь
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer-nav__list">
+                        <h5>Программы</h5>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Дошкольникам
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Школьника
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Взрослым
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Компаниям
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Международные экзамены
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Pearson test of English
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-nav__link">
+                                <svg width="5" height="8" viewBox="0 0 5 8" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4L0.5 0.535898L0.5 7.4641L5 4Z" fill="#72A92C"/>
+                                </svg>
+                                Индивидуальное обучение
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 footer-contacts">
+                    <h5>Контакты</h5>
+                    <div class="footer-contacts__wrap">
+                        <ul class="footer-address__list">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Пр-т Ленина 155а, 3й этаж</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Пр-т Ленина 93б, 2й этаж, офис 202</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Ул. Попова 61Б, 2й этаж</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Ул. Власихинская 77, 1й этаж</p>
+                            </li>
+                        </ul>
+                        <ul class="footer-contact__list">
+                            <li>
+                                <a href="tel:78452391001">
+                                    <i class="fas fa-phone-alt"></i>
+                                    +7 8452 39 10 01
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:73852533949">
+                                    <i class="fas fa-phone-alt"></i>
+                                    +7 (3852) 533-949
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:3852430219">
+                                    <i class="fas fa-phone-alt"></i>
+                                    +7 (3852) 430-219
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:73852585501">
+                                    <i class="fas fa-phone-alt"></i>
+                                    +7(3852) 58-55-01
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="48" height="48" rx="8" fill="#131D3B"/>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M18.2422 39.5046L23.5047 34.2421C23.8276 33.9192 24.3512 33.9192 24.6742 34.2421L29.9367 39.5046C30.2596 39.8275 30.2596 40.3511 29.9367 40.6741C29.6137 40.997 29.0901 40.997 28.7672 40.6741L24.0894 35.9963L19.4116 40.6741C19.0887 40.997 18.5651 40.997 18.2422 40.6741C17.9193 40.3511 17.9193 39.8275 18.2422 39.5046Z"
+                  fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.2791 27.7743C16.3108 27.009 16.4094 26.2979 16.5627 25.6377L16.5597 25.64L10 19.045L17.7426 22.7883L17.7606 22.7644C17.9609 22.4574 18.1778 22.1718 18.409 21.9065L18.429 21.8802L14.8815 10.9306L21.3716 19.85L21.4097 19.8383C21.6519 19.7494 21.8978 19.6732 22.1467 19.6103L22.1789 19.6003L24.1594 6L26.2213 19.7133L26.2643 19.729C26.4868 19.7984 26.7067 19.8784 26.9237 19.9687L26.9665 19.9844L33.4619 10.9731L29.7798 22.0373L29.7834 22.0418C29.9634 22.2496 30.1344 22.4706 30.2968 22.7026L30.3116 22.7217L38.1801 18.9838L31.632 25.6256L31.6286 25.6226C31.8055 26.2856 31.9288 26.9996 31.986 27.7683C29.0277 22.3957 18.9042 22.5526 16.2791 27.7743V27.7743ZM21.2997 32.3071C21.4683 29.371 26.6904 29.3689 26.9911 32.305C25.9192 30.0141 22.2508 30.086 21.2997 32.3071ZM19.2785 31.6169C19.5656 26.6171 28.4575 26.6137 28.9696 31.6132C27.1443 27.7122 20.8981 27.8347 19.2785 31.6169ZM17.1489 30.7054C17.5589 23.566 30.2565 23.5611 30.9877 30.7002C28.3811 25.1297 19.4616 25.3047 17.1489 30.7054V30.7054Z"
+                  fill="white"/>
+        </svg>
+    </button>
+
+    <div class="overlay"></div>
+
+    <!--    modal-->
+    <div class="modal modal-order fade" id="modal-order-course" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <form class="order-form" action="#" role="form">
+                        <h4>Хотите записаться на курс?</h4>
+                        <p>Оставьте ваши контактные данные и мы обязательно свяжемся с вами в течении 2 часов.</p>
+                        <div class="ajax-hidden">
+                            <div class="form-group">
+                                <label class="sr-only" for="c_name">Ваше имя</label>
+                                <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Ваше имя">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="c_phone">Номер телефона</label>
+                                <input type="number" id="c_phone" class="form-control" name="c_phone" placeholder="Номер телефона">
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" id="c_access" name="c_access">
+                                <label class="label-access" for="c_access">Нажимая “Отправить” вы соглашаетесь с политикой
+                                    <a href="#">конфиденциальности  <span>и</span> условиями.</a></label>
+                            </div>
+                            <button class="btn-orange" type="submit">Перезвоните мне</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/all.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</body>
+</html>
